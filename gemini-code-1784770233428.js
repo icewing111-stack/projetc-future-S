@@ -24,7 +24,7 @@ export default async function handler(req, res) {
 이 사용자를 위해 주변에 있을 법한 편의점 유형, 추천하는 방문 동선, 혹은 해당 지역의 편의점 이용 팁을 친절하고 상세하게 안내해 주세요.`;
 
     const response = await ai.models.generateContent({
-      model: 'Gemini 3.1 Flash Lite',
+      model: 'gemini 3.1 flash lite',
       contents: prompt,
     });
 
